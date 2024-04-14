@@ -1,0 +1,23 @@
+commit 8b8a617fa916601f040310a1ebc98271f61be36a
+Author: kalinak <kalinak@iborn.net>
+Date:   Sun Apr 14 22:44:23 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit 3fd91b335332f4b70b6a3839a01c46bb6f811963
+Author: kalinak <kalinak@iborn.net>
+Date:   Sun Apr 14 22:26:22 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 15f6dd34b4430385f1510fc5afeefc3fd9d3ccf7
+Author: kalinak <kalinak@iborn.net>
+Date:   Sun Apr 14 21:30:15 2024 +0200
+
+    Add starter code
+
+commit f54bbcc2a44b425bc1ae983f875108842ea67bcb
+Author: kalinak <kalinak@iborn.net>
+Date:   Sun Apr 14 20:59:03 2024 +0200
+
+    Initial commit
