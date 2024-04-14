@@ -1,0 +1,52 @@
+1. $ cd SI_2024_lab1_123007 - по креирање на локалниот репозиториум, се навигираме внатре
+2. $ git init - Иницијализира празен GIT репозиториум
+3. $ git remote add origin https://github.com/yourusername/SI_2024_lab1_123007.git - поврзување на локалниот директориум со оддалечениот репозиториум
+3. $ echo "Kalina Kostovska 123007" > README.md - креирање на нова README.md датотека, со име, презиме и број на индекс
+4. $ git add README.md - датотеката е staged и спремна за комитирање
+5. $ git commit -m "Initial commit" - комитирање на промените со порака Initial commit
+6. фајловите се симнаа линк1, линк2 и линк3 и откако ги симнав ги ставив во креираниот директориум SI_2024_lab1_123007
+7. $ git add . - сите фајлови од моменталниот директориум да се додадат
+8. $ git commit -m "Add starter code" - комитирање на промените со порака Add starter codе
+9. $ git fetch origin - се превзимат последните промени од оддалечениот репозиториум
+10. $ git checkout -b master - креирање на локална мастер гранка
+11. $ git push -u origin master - откако гранката се креираше локално, со помош на оваа команда се синхронизира на оддалечениот репозиториум
+12. $ git branch bug1 - креирање на гранка bug1 од master гранката
+13. $ git branch bug2 - креирање на гранка bug2 од master гранката
+14. $ git checkout bug1 - префрлање на гранката bug1
+15. поправка на грешката директно во фајлот SILab1_1.java
+16. $ git add SILab1_1.java - додавање на датотеката SILab1_1.java на stage
+17. $ git commit -m "Fix wrong condition in filterOddLengthStrings" - комитирање на промените со порака "Fix wrong condition in filterOddLengthStrings"
+18. $ git checkout bug2 - префрлање на гранката bug2
+19. поправка на грешката директно во фајлот SILab1_2.java
+20. $ git add SILab1_2.java - додавање на датотеката SILab1_2.java на stage
+21. $ git commit -m "Fix wrong condition in filterOddLengthStrings" - комитирање на промените со порака "Fix wrong condition in makeBigStringFrom"
+22. $ git checkout bug1 - префрлање на гранката bug1
+23. промена директно во фајлот, се повика методот makeBigStringFrom SILab1Main.java
+24. $ git add SILab1Main.java - додавање на датотеката SILab1Main.java на stage
+25. $ git commit -m "Call method makeBigStringFrom in main class" - комитирање на промените со порака "Call method makeBigStringFrom in main class"
+26. $ git checkout bug2 - префрлање на гранката bug2
+27. промена директно во фајлот, се повика методот makeBigStringFrom SILab1Main.java
+28. $ git add SILab1Main.java - додавање на датотеката SILab1Main.java на stage
+29. $ git commit -m "Call method makeBigStringFrom in main class" - комитирање на промените со порака "Call method makeBigStringFrom in main class"
+30. $ git push origin bug1 - синхронизира на гранката bug1 со оддалечениот репозиториум
+31. $ git push origin bug2 - синхронизира на гранката bug2 со оддалечениот репозиториум
+31. $ git checkout master - префрлање на гранката master
+32. ¤ git merge bug1 - спојување на гранката bug1 во мастер
+33. $ git push origin --all - синхронизира на сите гранки до оддалечениот репозиториум
+34. $ git checkout bug2 - префрлање на гранката bug2
+35. git rebase master - rebase спрема гранката master од гранката bug2
+36. Се појавија конфликит и ги решив рачно
+37. 28. $ git add SILab1Main.java - додавање на датотеката SILab1Main.java на stage
+29. $ git commit -m "Resolve the conflict" - комитирање на промените со порака "Resolve the conflict"
+
+
+
+
+
+
+
+
+
+
+
+
